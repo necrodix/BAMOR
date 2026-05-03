@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portal profesional de servicios integrales para hogar, oficina y negocio." />
+    <title>B.A.M.O.R. Servicios Integrales</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Sora:wght@500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="topbar fixed-top">
+      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+        <div class="container-shell">
+          <a class="navbar-brand brand-lockup" href="#inicio" aria-label="Inicio">
+            <img src="images/Logo.png" alt="Logo BAMOR" />
+            <span class="brand-lockup-name" data-brand-name>B.A.M.O.R.</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="container-shell hero-grid">
+          <div class="hero-copy-shell reveal-item">
+            <span class="hero-kicker"><i class="bi bi-patch-check-fill"></i> servicio verificado</span>
+            <h1 class="hero-title" data-hero-title></h1>
+            <p class="hero-copy" data-hero-subtitle></p>
+
+            <div class="hero-badges" data-badges></div>
+
+            <div class="hero-cta">
+              <a class="btn-core btn-primary-core" data-hero-primary-cta href="#contacto"></a>
+              <a class="btn-core btn-secondary-core" data-hero-secondary-cta href="#servicios"></a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal-item" data-hero-backdrop role="region" aria-label="Galería de servicios integrales destacados">
+            <div class="hero-slider" data-hero-slider>
+              <div class="hero-slider-track" data-hero-slider-track aria-live="polite"></div>
+              <div class="hero-slider-controls">
+                <button class="hero-slider-control" type="button" data-hero-prev aria-label="Imagen anterior">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button class="hero-slider-control" type="button" data-hero-next aria-label="Imagen siguiente">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <div class="hero-slider-dots" data-hero-dots aria-label="Selector de imágenes"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="nosotros" class="section">
+        <div class="container-shell">
+          <div class="features-grid" data-features></div>
+        </div>
+      </section>
+
+      <section id="servicios" class="section">
+        <div class="container-shell">
+          <h2 class="section-title">Servicios</h2>
+          <p class="section-copy">Portafolio centralizado y fácil de ampliar desde el archivo de configuración.</p>
+          <div class="services-grid" data-services></div>
+        </div>
+      </section>
+
+      <section class="section section-specialties">
+        <div class="container-shell">
+          <h2 class="section-title">Especialidades y líneas destacadas</h2>
+          <p class="section-copy">También trabajamos soluciones complementarias para obra, remodelación y mantenimiento continuo.</p>
+          <div class="specialties-grid" data-specializations></div>
+        </div>
+      </section>
+
+      <section class="section section-process">
+        <div class="container-shell">
+          <h2 class="section-title">Nuestro proceso</h2>
+          <p class="section-copy">Diseñado para ofrecer control, transparencia y tiempos de respuesta competitivos.</p>
+          <div class="process-grid" data-process></div>
+          <div data-pricing></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container-shell">
+          <div class="cta-band">
+            <h2 class="section-title">Cotiza hoy mismo</h2>
+            <p class="section-copy">Comparte tu requerimiento y te respondemos con propuesta clara de alcance, tiempos y costos.</p>
+            <div class="hero-cta">
+              <a class="btn-core btn-primary-core" data-whatsapp-link target="_blank" rel="noreferrer noopener">
+                <i class="bi bi-whatsapp"></i>
+                WhatsApp
+              </a>
+              <a class="btn-core btn-secondary-core" href="#contacto">Enviar formulario</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container-shell">
+          <h2 class="section-title">Preguntas frecuentes</h2>
+          <p class="section-copy">Resolvemos las dudas más comunes antes de tu primera visita técnica.</p>
+
+          <div class="faq-shell">
+            <div class="accordion" id="faqAccordion" data-faq></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section">
+        <div class="container-shell">
+          <h2 class="section-title">Contacto</h2>
+          <p class="section-copy">Estamos listos para ayudarte por el canal que prefieras.</p>
+
+          <div class="contact-panel">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <h3>Teléfono</h3>
+                <p data-contact-phone></p>
+              </div>
+              <div class="col-md-4">
+                <h3>Correo</h3>
+                <p data-contact-email></p>
+              </div>
+              <div class="col-md-4">
+                <h3>Oficinas</h3>
+                <p data-contact-address></p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="mt-4 mb-1" style="font-size:1.15rem;">Quejas o sugerencias</h3>
+          <p class="section-copy" style="font-size:0.95rem;">Comparte tu experiencia o déjanos saber cómo podemos mejorar.</p>
+
+          <form class="row g-3 mt-1" action="#" method="post" novalidate>
+            <div class="col-md-6">
+              <label class="form-label" for="nombre">Nombre completo</label>
+              <input class="form-control" id="nombre" type="text" name="nombre" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="telefono">Teléfono</label>
+              <input class="form-control" id="telefono" type="tel" name="telefono" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="correo">Correo electrónico</label>
+              <input class="form-control" id="correo" type="email" name="correo" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <div class="col-12 d-flex gap-3 flex-wrap align-items-center">
+              <button class="btn-core btn-primary-core" type="submit">Enviar</button>
+              <a class="btn-core btn-bolsa" href="bolsa-de-trabajo.html"><i class="bi bi-briefcase"></i> Bolsa de trabajo</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-wrap">
+      <div class="container-shell footer-grid">
+        <div>
+          <p class="footer-note"><span data-brand-name>B.A.M.O.R.</span> © <span data-year></span>. Todos los derechos reservados.</p>
+          <p class="footer-note">Contacto rápido: <span data-contact-phone></span> | <span data-contact-email></span></p>
+        </div>
+        <div class="social-row" data-social></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="config/portal.config.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <a class="whatsapp-float" data-whatsapp-float target="_blank" rel="noreferrer noopener" aria-label="Contactar por WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+      <span data-whatsapp-phone></span>
+    </a>
+  </body>
+</html>

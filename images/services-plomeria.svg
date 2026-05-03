@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Servicio plomeria">
+  <rect width="640" height="400" fill="#0ea5e9"/>
+  <path d="M200 80h130v60h-38v70h100v60h-100v70h-60v-70h-96v-60h96v-70h-32z" fill="#e0f2fe"/>
+  <circle cx="430" cy="116" r="22" fill="#bae6fd"/>
+  <circle cx="470" cy="86" r="14" fill="#bae6fd"/>
+  <text x="44" y="360" fill="#f0f9ff" font-family="Outfit, Segoe UI, sans-serif" font-size="34" font-weight="700">Plomeria</text>
+</svg>

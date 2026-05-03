@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Servicio electricidad">
+  <rect width="640" height="400" fill="#0f766e"/>
+  <polygon points="305,70 230,220 305,220 250,330 415,170 340,170 395,70" fill="#fde047"/>
+  <text x="44" y="360" fill="#ecfeff" font-family="Outfit, Segoe UI, sans-serif" font-size="34" font-weight="700">Electricidad</text>
+</svg>

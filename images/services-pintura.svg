@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Servicio pintura">
+  <rect width="640" height="400" fill="#1d4ed8"/>
+  <rect x="120" y="90" width="160" height="230" fill="#60a5fa"/>
+  <rect x="280" y="90" width="160" height="230" fill="#93c5fd"/>
+  <rect x="440" y="90" width="80" height="230" fill="#bfdbfe"/>
+  <path d="M70 70h130l15 18v24H70z" fill="#f59e0b"/>
+  <path d="M70 112h145v20H70z" fill="#f97316"/>
+  <text x="44" y="360" fill="#eff6ff" font-family="Outfit, Segoe UI, sans-serif" font-size="34" font-weight="700">Pintura</text>
+</svg>

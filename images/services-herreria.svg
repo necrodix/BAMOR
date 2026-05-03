@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Servicio herreria">
+  <rect width="640" height="400" fill="#334155"/>
+  <rect x="90" y="80" width="460" height="250" fill="#64748b"/>
+  <rect x="130" y="110" width="380" height="190" fill="#0f172a"/>
+  <line x1="190" y1="110" x2="190" y2="300" stroke="#64748b" stroke-width="12"/>
+  <line x1="270" y1="110" x2="270" y2="300" stroke="#64748b" stroke-width="12"/>
+  <line x1="350" y1="110" x2="350" y2="300" stroke="#64748b" stroke-width="12"/>
+  <line x1="430" y1="110" x2="430" y2="300" stroke="#64748b" stroke-width="12"/>
+  <text x="44" y="360" fill="#f8fafc" font-family="Outfit, Segoe UI, sans-serif" font-size="34" font-weight="700">Herreria</text>
+</svg>
